@@ -43,3 +43,16 @@ other representation way than decimal
 <, >, <=, >=, ==, !=
 and or not 
 support chian compare  1 < x < 10
+
+### string
+' and " is equal
+''' for multiline string
++ support plus
+index  s='hello' s[0]='h' s[-1]='o' s[0:5]='hello'
+split s='he llo' s.split() = ['he','llo']
+len  len(s)=5
+
+### type conversion
+print(str(1))  '1'
+print(int('1')) 1
+
